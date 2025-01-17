@@ -8,4 +8,11 @@ const passwordChecker = require('../src/passwordChecker');
         expect(passwordChecker('Abcd75524')).toBe(false);
       });
 
+
+      test('Should fail if digit not really present', () => {
+        expect(passwordChecker('Abcd!!!')).toBe(false);
+      });
+      
+
+
      });
