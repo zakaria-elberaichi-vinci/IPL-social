@@ -1,0 +1,19 @@
+{
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "Auteur\r Elberaichi\r Zakaria -zakaria.elberaichi@student.vinci.be\r URL du projet\r https://github.com/zakaria-elberaichi-vinci/IPL-social",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

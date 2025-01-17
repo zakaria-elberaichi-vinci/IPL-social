@@ -25,6 +25,3 @@ Pour exécuter les tests, utilisez la commande suivante :
 
 npm test
 
-git add README.md
-git commit -m "Ajout du fichier README"
-git push origin main
