@@ -20,5 +20,8 @@ const passwordChecker = require('../src/passwordChecker');
 
       
 
+      test('Should pass if meets all conditions', () => {
+        expect(passwordChecker('Abcd!1234')).toBe(true);
+      });
 
      });
