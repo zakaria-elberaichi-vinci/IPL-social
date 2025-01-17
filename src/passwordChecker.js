@@ -9,11 +9,14 @@ function passwordChecker(password) {
        return false;
      }
 
-   
      const digitRegex = /\d/;
      if (!digitRegex.test(password)) {
        return false;
      }
+
+      if (password.toLowerCase().includes('ipl')) {
+        return false;
+      }
     return true;
   }
 

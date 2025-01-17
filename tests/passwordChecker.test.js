@@ -12,6 +12,12 @@ const passwordChecker = require('../src/passwordChecker');
       test('Should fail if digit not really present', () => {
         expect(passwordChecker('Abcd!!!')).toBe(false);
       });
+
+      test('Should fail if it contains "IPL" (any case)', () => {
+        expect(passwordChecker('AbcdIPL345')).toBe(false);
+        expect(passwordChecker('abcdipl345!')).toBe(false);
+      });
+
       
 
 
